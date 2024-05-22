@@ -1,0 +1,38 @@
+# Changing Window focus
+# change window focus within space
+cmd + alt - j : yabai -m window --focus south
+cmd + alt - k : yabai -m window --focus north
+cmd + alt - h : yabai -m window --focus west
+cmd + alt - l : yabai -m window --focus east
+
+# change space focus 
+cmd + ctrl - h : yabai -m display --focus west
+cmd + ctrl - l : yabai -m display --focus east
+cmd + ctrl + alt + shift - h : yabai -m display --focus west
+cmd + ctrl + alt + shift - l : yabai -m display --focus east
+
+# Modifying Window Size 
+ctrl + shift - k : yabai -m window --toggle zoom-fullscreen
+ctrl + shift - j : yabai -m space --balance
+
+# move window and split 
+ctrl + alt - j : yabai -m window --warp south
+ctrl + alt - k : yabai -m window --warp north
+ctrl + alt - h : yabai -m window --warp west
+ctrl + alt - l : yabai -m window --warp east
+
+ctrl + alt - r : yabai -m space --rotate 270
+
+# move window to prev and next space 
+ctrl + shift - h: yabai -m window --space prev
+ctrl + shift - l: yabai -m window --space next
+
+ctrl + shift - 1: yabai -m window --space 1
+ctrl + shift - 2: yabai -m window --space 2
+ctrl + shift - 3: yabai -m window --space 3
+ctrl + shift - 4: yabai -m window --space 4
+ctrl + shift - 5: yabai -m window --space 5
+ctrl + shift - 6: yabai -m window --space 6
+ctrl + shift - 7: yabai -m window --space 7
+ctrl + shift - 8: yabai -m window --space 8
+ctrl + shift - 9: yabai -m window --space 9
